@@ -22,6 +22,10 @@
 1. Start your MongoDB server ``mongod`` (if not already running)
 1. Start the actionhero server ```npm start```
 
+## Hint
+```shell
+$ mongod --dbpath data/db
+```
 
 #### Requests
 - [http://localhost:8080/api/userAdd?email=evan@evantahler.com&password=password&firstName=Evan&lastName=tahler](http://localhost:8080/api/userAdd?email=evan@evantahler.com&password=password&firstName=Evan&lastName=tahler)
